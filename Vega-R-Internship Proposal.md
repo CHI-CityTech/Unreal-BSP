@@ -1,98 +1,147 @@
-# Internship Proposal: Core Infrastructure Development for Blended Reality Performance System (BRPS)
+# Internship Proposal: Development of a Flat-Surface Virtual Environment for the Blended Reality Performance System (BRPS)
 
-**Organizing Institution**: Center for Holistic Integration (CHI)  
+Intern: Rodrigo Vega  
+Supervisor: David B. Smith  
 
-**Meta-Project**: Blended Shadow Puppet (BSP)  
-
-**Personnel**:  
-- **Intern**: Rodrigo Vega  
-- **Supervisor**: David Smith  
-
-**Timeframe**: 120-132 hours over 10 weeks  
-
-**Effort**:  
-- Weekly effort logging and progress updates.  
-- Collaborative development via GitHub and Unreal Engine integration.  
-- Weekly meetings with supervisors for feedback and planning.  
-
-**Activity Type**:  
-- Research and development internship.  
-- Tasks include creating a virtual environment, shadow mechanics testing, asset integration, and documenting processes for collaborative use.  
+Timeframe: Winter/Spring 2025.
 
 ## Overview
-This internship focuses on developing a foundational virtual environment for the **Blended Shadow Puppet (BSP)** project within Unreal Engine. The intern, Rodrigo Vega, will create and refine a virtual environment that mirrors physical shadow puppetry dynamics. The project includes the development of responsive physics systems, shadow-casting mechanics, asset integration, and real-time documentation through GitHub and Unreal’s development environment.
+This internship focuses on research-driven development of a flat, bounded virtual environment within Unreal Engine for the **Blended Shadow Puppet (BSP)** project. The goal is to establish a foundational platform for shadow puppetry dynamics while integrating principles of light-shadow interaction and physics. By prioritizing research, this internship ensures efficient use of existing resources and minimizes redundancy, enabling the intern to design and build effectively.
 
+## Join various organizations and resources
+
+   - Create or share GitHub account and join the CHI organization.  Make sure your GitHub label includes your real name so we can identify the user.
+   - Create an account on [Zotero](https://www.zotero.org/) and link to it.  Zotero is where we will store all research materials and citations that can be shared within the BSP community.  Join the [BlendedShadowPuppet](https://www.zotero.org/groups/5428036/blendedshadowpuppet) group,.
 ## Objectives
-1. **Establish a Functional Virtual Environment**:
-   - Develop a 3D floor that responds to Unreal Engine's physics and gravity systems.
-   - Create a projection screen allowing shadows to be seen on both sides, exploring semi-transparency as part of Unreal Engine capabilities.
-2. **Implement Shadow Mechanics**:
-   - Design and test light sources that generate realistic shadows.
-   - Use basic objects (e.g., cubes) for initial shadow tests to replicate physical-world shadow-casting behaviors.
-3. **Asset Integration**:
-   - Import 2D and 3D assets into the Unreal environment.
-   - Experiment with occlusion-based and alpha-masking methods for shadow creation.
-4. **Collaboration and Documentation**:
-   - Regularly log weekly progress, update GitHub, and link Unreal development code to the repository for accessibility and review.
+1. **Research Existing Resources**:
+   - Explore the [Unreal 5.5 documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation)
+   - Identify Unreal Engine tools, assets, and tutorials relevant to the project.
+   - Explore community and documentation resources for shadow-casting and physics simulations.
+   - Investigate best practices for asset integration and lighting mechanics.
+
+2. **Design the Virtual Environment**:
+   - Plan the layout, physics, and interaction properties of the flat surface environment.
+   - Define boundaries and establish standards for scalability and future adaptation.
+
+3. **Implement and Test Shadow Mechanics**:
+   - Develop a light-shadow system and test basic interactions using simple objects.
+
+4. **Document and Collaborate**:
+   - Maintain detailed records of findings, workflows, and developments on GitHub.
+
+---
 
 ## Deliverables
-1. **Virtual Environment**:
-   - A 3D space with a physics-enabled floor and projection screen.
-   - Functional light source with realistic shadow-casting capabilities.
-2. **Shadow-Casting Tests**:
-   - Basic tests with simple objects to ensure shadow dynamics align with physical-world behaviors.
-3. **Asset Import and Interaction**:
-   - Imported assets rigged for basic movements and shadow projection.
+1. **Research Report**:
+   - Comprehensive documentation of existing Unreal Engine tools and techniques.
+   - Recommendations for design and implementation strategies.
+2. **Virtual Environment**:
+   - A flat, bounded 3D space with physics-enabled properties and lighting systems.
+3. **Shadow-Casting Tests**:
+   - Demonstrations of shadow projection and interaction.
 4. **GitHub Repository**:
-   - Documentation of workflows, code, and testing results.
-   - Integration with Unreal Engine's development environment.
+   - Repository with detailed documentation and linked Unreal Engine code.
+
+---
 
 ## Development Phases
 
-### Phase 1: Environment Creation (20-25 Hours)
-- Activities:
-  - Build a 3D floor with physics and gravity functionality.
-  - Develop a projection screen with potential transparency for double-sided shadow viewing.
-- Deliverables:
-  - Completed environment prototype with floor and screen.
+### Phase 1: Research and Resource Review (25-30 Hours)
 
-### Phase 2: Shadow Mechanics Testing (20-25 Hours)
-- Activities:
-  - Implement and position light sources.
-  - Test shadow casting with basic objects like cubes and spheres.
-- Deliverables:
-  - Working light-shadow system with initial testing results.
+#### Objectives
+- Investigate Unreal Engine’s capabilities for light-shadow mechanics, object occlusion, and translucent materials.
+- Identify existing tools, plugins, or assets that support shadow-casting and fabric translucency features.
+- Understand Unreal Engine’s handling of front/rear projection and responsiveness of materials to light and shadow.
 
-### Phase 3: Asset Import and Shadow Interaction (25-30 Hours)
-- Activities:
-  - Import puppet and object assets in formats such as `.obj`.
-  - Test occlusion-based and alpha-masking shadow mechanics.
-- Deliverables:
-  - Shadow-optimized assets integrated into the environment.
+#### Activities
+1. **Light and Shadow Mechanics**:
+   - Research how Unreal Engine handles real-time lighting and shadow generation.
+   - Explore documentation and tutorials on dynamic and static light sources.
+   - Investigate shadow quality settings and optimization techniques.
 
-### Phase 4: Basic Movement Integration (20-25 Hours)
-- Activities:
-  - Enable basic movement of imported assets.
-  - Test shadow dynamics during movement.
-- Deliverables:
-  - Functional prototype with movement and shadow integration.
+2. **Object Occlusion**:
+   - Study how objects block light to cast shadows in Unreal Engine.
+   - Test simple 3D objects (e.g., cubes, spheres) to verify occlusion dynamics.
 
-### Phase 5: Documentation and Submission (20-25 Hours)
-- Activities:
-  - Document workflows, standards, and findings in the GitHub repository.
-  - Integrate Unreal Engine code with GitHub for collaborative access.
-- Deliverables:
-  - Complete repository with README, code, and test documentation.
+3. **Translucent Materials**:
+   - Research Unreal Engine’s capabilities for translucent materials to allow shadows on both sides of a surface.
+   - Test transparency and translucency settings on planes to simulate fabric behavior.
+
+4. **Comparison with Physical Testing**:
+   - Review findings from the SeaScape 360 project on fabric and projection testing.
+   - Identify testing protocols to evaluate translucency and shadow response in the virtual environment.
+
+#### Deliverables
+- Comprehensive research report summarizing Unreal Engine’s capabilities for light, shadow, and translucent surfaces.
+- All research material links and sources uploaded to the Zotero account
+- Recommendations for design and testing based on findings.
+
+---
+
+### Phase 2: Design and Testing Plan (20-25 Hours)
+
+#### Objectives
+- Develop a detailed design plan for the flat virtual environment.
+- Establish protocols to test shadow-casting and fabric-like surface translucency.
+
+#### Activities
+1. **Environment Layout**:
+   - Define the scale and boundaries of the flat environment.
+   - Plan the placement of light sources, projection screens, and test objects.
+
+2. **Testing Protocols**:
+   - Adapt SeaScape 360 protocols for virtual testing:
+     - Test different lighting angles and intensities.
+     - Evaluate shadow projection on front and rear surfaces.
+     - Simulate varying material properties (e.g., translucency, texture).
+
+3. **Simulation Requirements**:
+   - Outline parameters for light, shadow, and material interactions.
+   - Define metrics for evaluating responsiveness and accuracy of shadows.
+
+#### Deliverables
+- Design document detailing environment layout and testing protocols.
+- List of materials and settings for translucency and shadow quality testing.
+
+---
+
+### Phase 3: Environment Creation and Initial Testing (35-40 Hours)
+
+#### Objectives
+- Build the virtual environment based on the design plan.
+- Test the responsiveness of light-shadow interactions and translucent surfaces.
+
+#### Activities
+1. **Environment Construction**:
+   - Create a flat surface with basic physics properties and defined boundaries.
+   - Develop projection screens with adjustable translucency.
+
+2. **Light-Shadow Testing**:
+   - Add light sources and test their interactions with simple objects.
+   - Observe and document the quality and behavior of shadows on both sides of the projection screen.
+
+3. **Material Experiments**:
+   - Apply different material properties to the projection screen and evaluate translucency.
+   - Test alpha masking for textures and simulate fabric-like behaviors.
+
+#### Deliverables
+- Functional prototype of the flat virtual environment.
+- Documentation of initial testing results and material experiments.
+
+---
 
 ## Weekly Meetings and Progress Tracking
-- Schedule weekly 30-minute meetings to review progress and address challenges.
-- Maintain a weekly effort log, detailing hours and completed tasks.
-- Regularly push updates to GitHub, ensuring version control and project transparency.
+- Weekly 30-minute meetings to review progress and address challenges.
+- Maintain a weekly effort log detailing hours and tasks completed.
+- Regularly push updates to GitHub for version control and collaborative access.
+
+---
 
 ## Learning Outcomes
-- Develop expertise in Unreal Engine’s physics, lighting, and asset integration capabilities.
-- Explore real-time shadow dynamics and their application to virtual environments.
-- Gain experience in collaborative documentation and cross-platform development workflows.
+- Develop a research-first approach to project planning and implementation.
+- Build foundational skills in Unreal Engine for 3D asset integration and lighting.
+- Understand principles of light-shadow interaction and physics in virtual environments.
+- Gain experience in documenting workflows and collaborating on GitHub.
 
 ## Contact Information
 **Supervisor**: David Smith  
