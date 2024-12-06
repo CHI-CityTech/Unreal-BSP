@@ -8,10 +8,11 @@ Timeframe: Winter/Spring 2025.
 ## Overview
 This internship focuses on research-driven development of a flat, bounded virtual environment within Unreal Engine for the **Blended Shadow Puppet (BSP)** project. The goal is to establish a foundational platform for shadow puppetry dynamics while integrating principles of light-shadow interaction and physics. By prioritizing research, this internship ensures efficient use of existing resources and minimizes redundancy, enabling the intern to design and build effectively.
 
-## Join various organizations and resources
+## Join necessary Organizations
 
    - Create or share GitHub account and join the CHI organization.  Make sure your GitHub label includes your real name so we can identify the user.
-   - Create an account on [Zotero](https://www.zotero.org/) and link to it.  Zotero is where we will store all research materials and citations that can be shared within the BSP community.  Join the [BlendedShadowPuppet](https://www.zotero.org/groups/5428036/blendedshadowpuppet) group,.
+   - Create an account on [Zotero](https://www.zotero.org/) and link to it.  Zotero is where we will store all research materials and citations that can be shared within the BSP community.  Join the [BlendedShadowPuppet](https://www.zotero.org/groups/5428036/blendedshadowpuppet) group.  Specific instructions can be found on [this project](https://github.com/orgs/CHI-CityTech/projects/9)
+     
 ## Objectives
 1. **Research Existing Resources**:
    - Explore the [Unreal 5.5 documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation)
@@ -29,8 +30,6 @@ This internship focuses on research-driven development of a flat, bounded virtua
 4. **Document and Collaborate**:
    - Maintain detailed records of findings, workflows, and developments on GitHub.
 
----
-
 ## Deliverables
 1. **Research Report**:
    - Comprehensive documentation of existing Unreal Engine tools and techniques.
@@ -41,8 +40,6 @@ This internship focuses on research-driven development of a flat, bounded virtua
    - Demonstrations of shadow projection and interaction.
 4. **GitHub Repository**:
    - Repository with detailed documentation and linked Unreal Engine code.
-
----
 
 ## Development Phases
 
@@ -55,7 +52,7 @@ This internship focuses on research-driven development of a flat, bounded virtua
 
 #### Activities
 1. **Light and Shadow Mechanics**:
-   - Research how Unreal Engine handles real-time lighting and shadow generation.
+   - Research how Unreal Engine handles real-time lighting and [shadow generation](https://dev.epicgames.com/documentation/en-us/unreal-engine/shadowing-in-unreal-engine).
    - Explore documentation and tutorials on dynamic and static light sources.
    - Investigate shadow quality settings and optimization techniques.
 
@@ -142,7 +139,4 @@ This internship focuses on research-driven development of a flat, bounded virtua
 - Build foundational skills in Unreal Engine for 3D asset integration and lighting.
 - Understand principles of light-shadow interaction and physics in virtual environments.
 - Gain experience in documenting workflows and collaborating on GitHub.
-
-## Contact Information
-**Supervisor**: David Smith  
-**Intern**: Rodrigo Vega  
+- Develop competency in the use of Zotero as a research support tool.
